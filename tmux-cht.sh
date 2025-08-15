@@ -10,7 +10,6 @@ if [[ -z $selected ]]; then
     exit 0
 fi
 
-echo $print_cmd
 read -p "Enter Query: " query
 
 if grep -qs "$selected" ~/.tmux/.tmux-cht-languages; then
